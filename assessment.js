@@ -20,7 +20,7 @@
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+" A function is what you want the code to do and the method is how to do it."
 
 /**
  * QUESTION #2 -
@@ -34,7 +34,7 @@ for (let i = 0; i = timesToLoop; i++) {
     console.log('I am looping!');
 }
 
-""
+" The middle variable shoule be set to i <= timesToLoop"
 
 /**
  * QUESTION #3 -
@@ -44,7 +44,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"boolean"
 
 /**
  * QUESTION #4 -
@@ -53,7 +53,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+" to execute a certian block of code"
 
 /**
  * QUESTION #5 -
@@ -67,7 +67,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+" C "
 
 /**
  * QUESTION #6 -
@@ -76,7 +76,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+" document object model"
 
 /**
  * QUESTION #7 -
@@ -95,7 +95,7 @@ function testQuestionSeven() {
     }
 }
 
-""
+" yes or no"
 
 /**
  * QUESTION #8 -
@@ -105,7 +105,7 @@ function testQuestionSeven() {
  * Hint: Think of their general TYPE....
  */
 
-""
+"numbers"
 
 /**
  * QUESTION #9 -
@@ -114,7 +114,7 @@ function testQuestionSeven() {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+" sets a general function for all the code"
 
 /**
  * QUESTION #10 -
@@ -135,7 +135,7 @@ switch (value) {
         console.log('We are out of food...');
 };
 
-""
+"The answer is french fries"
 
 /**
  * QUESTION #11 -
@@ -145,9 +145,15 @@ switch (value) {
  */
 
 function createGrid(width, height) {
+let row
+ for (i = 0; i <= width; i++)
+ row.appendChild()
 
+ let square
+ for (i = 0; i <= row; i++)
+ row.square.appendChild()
 }
-
+createGrid()
 /**
  * QUESTION #12 -
  * What is the difference between a global and a local variable?
@@ -155,7 +161,7 @@ function createGrid(width, height) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+"Global would set variable throughout code and local would apply within a function"
 
 /**
  * QUESTION #13 - (EXTRA CREDIT!)
@@ -169,4 +175,4 @@ function createGrid(width, height) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+" C "
