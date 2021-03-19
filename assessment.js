@@ -20,7 +20,7 @@
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-" A function is what you want the code to do and the method is how to do it."
+" A function is a block of reusable code. A method is attatched to an object "
 
 /**
  * QUESTION #2 -
@@ -44,7 +44,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-"boolean"
+" else/if "
 
 /**
  * QUESTION #4 -
@@ -95,7 +95,7 @@ function testQuestionSeven() {
     }
 }
 
-" yes or no"
+"no "
 
 /**
  * QUESTION #8 -
@@ -114,7 +114,7 @@ function testQuestionSeven() {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-" sets a general function for all the code"
+" An IIFE executes a function immediately after it's created."
 
 /**
  * QUESTION #10 -
@@ -135,7 +135,7 @@ switch (value) {
         console.log('We are out of food...');
 };
 
-"The answer is french fries"
+" we are out of food..."
 
 /**
  * QUESTION #11 -
@@ -144,16 +144,19 @@ switch (value) {
  * Answer Type: Function
  */
 
-function createGrid(width, height) {
-let row
- for (i = 0; i <= width; i++)
- row.appendChild()
 
- let square
- for (i = 0; i <= row; i++)
- row.square.appendChild()
-}
-createGrid()
+ let container = document.querySelector('.grid-container');
+ for (let i = 0; i <= height; i++){
+let row = document.createElement('div');
+row.classList.add ('row');
+ container.appendChild(row);
+
+ for (let j = 0; j <= width; j++){
+     let square = document.createElement('div');
+     square.classList.add('square')
+    row.appendChild(square)
+ }
+ }
 /**
  * QUESTION #12 -
  * What is the difference between a global and a local variable?
@@ -175,4 +178,4 @@ createGrid()
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-" C "
+" A "
